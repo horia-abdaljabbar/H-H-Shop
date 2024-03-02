@@ -1,0 +1,27 @@
+.navbar{
+    margin-bottom: 50pxn;
+}
+.heroInfo{
+    position: relative;
+    top:50px
+}
+.hero{
+    /* background-image: url("src/assets/images/hero/img4.jpg"); */
+    width:100vw;
+    background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height:70px;
+
+    
+} 
+.navbar-toggler{
+    z-index: 9;
+}
+
+.active{
+    border-bottom: #ff851b 2px;
+}
+.signInUp-link{
+    color: #ff851b;
+    text-decoration: none;
+}

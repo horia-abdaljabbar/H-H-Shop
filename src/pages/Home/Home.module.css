@@ -1,0 +1,22 @@
+.categoriesSwiper {
+    width:1200px;
+    margin-top: 50px;
+    position: relative;
+}
+
+ .swiper-slide{
+     border: 1px solid #ff851b; 
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-backface-hidden .swiper-slide img{
+
+}
+
+.section-title{
+text-align: center;
+} 
+ 
