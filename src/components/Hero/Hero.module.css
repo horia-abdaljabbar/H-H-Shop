@@ -1,9 +1,12 @@
+/* 
+.swiper-backface-hidden .swiper-slide img{
+    width: 100%;
+ }
+ .swiper-wrapper{
+    width: 100%;
+    height: fit-content;
+ }
 
- .hero{
-    height:100vh;
-    background-color: #cccccc;
-    background-image: url("src/assets/images/hero/img2.jpg");
-    width:100vw;
-} 
+ 
 
-
+ */

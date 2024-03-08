@@ -6,11 +6,10 @@ import DetailsHome from '../../components/DetailsHome/DetailsHome'
 
 
 function Home() {
-  
       return (
       <>
-     
- {/* <DetailsHome/>  i need */}  
+
+ {/* <DetailsHome/> */}
  <SwiperCategories />
 
     </>

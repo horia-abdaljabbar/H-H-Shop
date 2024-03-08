@@ -8,6 +8,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import { NavLink } from 'react-router-dom';
 
 function SwiperCategories() {
   let [categories,setcategories]=useState([]);
@@ -37,9 +38,8 @@ function SwiperCategories() {
       // navigation
       loop={true}
       autoplay={{
-          delay: 5000,
+          delay: 2000,
           disableOnInteraction: false
-
       }}
       breakpoints={{
         // when window width is >= 576px
@@ -65,12 +65,12 @@ function SwiperCategories() {
       onSlideChange={() => console.log('slide change')}
     >
                {categories.map((category) => (
-        <SwiperSlide className='d-flex justify-content-center align-items-center ' key={category.id}>
+        <SwiperSlide className='d-flex flex-column justify-content-center align-items-center ' key={category.id}>
           <img 
             src={category.image.secure_url}
             alt={category.name}
           />
-          {/* <a href='#'>more</a> */}
+          <NavLink to={`/ProductsForCategory/${category.id}`} className='btn btn-light align-self-end border border-warning'>more</NavLink>
         </SwiperSlide>
       ))}
 
